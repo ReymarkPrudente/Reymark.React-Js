@@ -1,0 +1,255 @@
+
+#about img {
+    width: 80%;
+    border-radius: 10px;
+}
+#about-info {
+    min-height: 50vh;
+}
+
+#about #background {
+    background: #fff;
+    padding: 100px;
+}
+
+#carton {
+    background: #fff;
+    background-size: cover;
+}
+
+
+#carton .box {
+    margin-top: -25px;
+    width: 300px;
+}
+
+#carton .text {
+  text-align: justify;
+  font-size: 20px;
+}
+
+#carton img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+#carton .icons {
+    font-size: 20px;
+}
+
+#carton .icons:hover {
+    background: purple;
+    transition: all 0.4s ease;
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.footer_section {
+    background-color: #222831;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer_section .footer-info {
+    text-align: center;
+}
+
+.footer_section .footer-info p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer_section .footer-info p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*  */
+
+.container2 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+
+/*  */
+  
+  .air-waves {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: relative;
+  }
+  
+  .wave1 use {
+    -webkit-animation: move-forever1 10s linear infinite;
+    animation: move-forever1 10s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  .wave2 use {
+    -webkit-animation: move-forever2 8s linear infinite;
+    animation: move-forever2 8s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  .wave3 use {
+    -webkit-animation: move-forever3 6s linear infinite;
+    animation: move-forever3 6s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  @-webkit-keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+
+/*  */
+#skill {
+  margin-top: 50px;
+}
+
+.skills {
+  padding-top: 120px;
+}
+
+.skill {
+  width: 500px;
+  margin: 60px auto;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.27);
+}
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+.bar {
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.28,.8,.25,1);
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgb(232, 0, 236)0%, rgb(252, 103, 242)100%);
+}
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+.css {
+  width: 70%;
+  animation: css 3s;
+}
+.php {
+  width: 35%;
+  animation: php 3s;
+}
+.javascript {
+  width: 50%;
+  animation: javascript 3s;
+}
+@keyframes html {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 90%;
+  }
+}
+@keyframes css {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 70%;
+  }
+}
+@keyframes php {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 35%;
+  }
+}
+@keyframes javascript {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 50%;
+  }
+}

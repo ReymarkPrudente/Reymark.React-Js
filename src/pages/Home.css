@@ -1,0 +1,368 @@
+.container1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(100vh) scale(0);
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(0.4);
+    }
+}
+
+/*  */
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient( to right, hsla(0, 2%, 8%, 0.685) , #0f0f02bd);
+    background-size: cover;
+    padding-top: 0;
+}
+
+#banner .text {
+    color: #000;
+}
+
+#banner img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+#banner .ok {
+    margin-top: 120px;
+}
+
+#banner .self {
+    font-size: 30px;
+    font-weight: 5;
+    font-style: italic;
+}
+
+#banner .card {
+    background: transparent;
+    border: 0;
+}
+
+.btn {
+  padding: 15px 30px;
+  transition: all 0.4s ease;
+  font-weight: 800; 
+  border-radius: 0;
+}
+.btn-brand {
+  background-color: rgb(212, 163, 57);
+}
+
+.btn-brand:hover {
+  background-color: transparent;
+  color: white;
+  border-color: rgb(212, 163, 57);
+}
+
+.btn-outline-brand {
+  background-color: transparent;
+  color:rgb(212, 163, 57);
+  border-color: var(--bg1)
+}
+
+.btn-outline-brand:hover {
+  background-color: rgb(212, 163, 57);
+  color:var(--bg1)
+}
+
+#banner .card .btn-brand {
+    color: #ffffff;
+    background: rgb(212, 163, 57);
+  }
+
+
+#banner .card .btn-brand:hover {
+    color: #ffffff;
+    background-color: rgb(216, 208, 216);
+    font-weight: 800;
+}
+
+#about {
+  background: linear-gradient(to left, hsl(40, 77%, 42%) , rgb(78, 77, 75));
+  position: relative;
+  z-index: 1;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+
+
+#info .btn-brand {
+    color: #ffffff;
+    background: purple;
+}
+
+#info .btn-brand:hover {
+    color: #ffffff;
+    background-color: rgb(205, 52, 205);
+    font-weight: 800;
+}
+
+.footer_section {
+    background-color: #222831;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer_section .footer-info {
+    text-align: center;
+}
+
+.footer_section .footer-info p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer_section .footer-info p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+  /*  */
+
+#info {
+   background: linear-gradient( to right, hsla(0, 2%, 8%, 0.685) , #0f0f02bd);
+    background-size: cover;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+#info .card{
+  background-color: #44413a;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#info img {
+    width: 200px;
+    align-self: center;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+
+#info img:hover {
+  animation: wave 0.5s ease infinite; /* Apply wave animation on hover */
+}
+
+@keyframes wave {
+  0%, 100% {
+      transform: rotate(0deg); /* Start and end with no rotation */
+  }
+  25% {
+      transform: rotate(10deg); /* Rotate slightly clockwise at 25% */
+  }
+  75% {
+      transform: rotate(-10deg); /* Rotate slightly counterclockwise at 75% */
+  }
+}
+#game {
+    min-height: 100vh;
+    background: rgb(165, 0, 165);
+    padding-top: 0;
+}
+
+#game .card {
+    background: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+#game h3 {
+    color: rgb(255,255,255);
+    margin-left: 20%;
+}
+
+#game h4 {
+    color: rgb(255,255,255);
+}
+
+#game img {
+    width: 500px;
+    align-self: center;
+    transition: .5s ease-out;
+}
+
+#game img:hover {
+    width: 650px;
+    align-self: center;
+    transition: .5s;
+}
+
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(to left, hsl(40, 77%, 42%) , rgb(78, 77, 75));
+}
+
+#footer ul.list-unstyled li a {
+  color: #ffffff;
+} 
+
+#footer ul.list-unstyled li:hover a {
+  color: #F2B03B;
+}
+
+.footer img{
+  width: 50px;
+}
+
+/*  */
+
+  
+  @-webkit-keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  .radio-waves {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: relative;
+  }
+  
+  .radio-wave1 use {
+    -webkit-animation: move-forever1 10s linear infinite;
+    animation: move-forever1 10s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  .radio-wave2 use {
+    -webkit-animation: move-forever2 8s linear infinite;
+    animation: move-forever2 8s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  .radio-wave3 use {
+    -webkit-animation: move-forever3 6s linear infinite;
+    animation: move-forever3 6s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  @-webkit-keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }

@@ -1,0 +1,32 @@
+.navbar {
+  background: linear-gradient(to bottom, hsla(50, 2%, 49%, 0.984) , rgba(145, 141, 135, 0.884));
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    font-weight: bold;
+    color: #F2B03B;
+    transition: all 0.4s ease;
+  }
+  
+  .navbar .navbar-brand:hover {
+    color: #fff;
+    filter: drop-shadow(0 0 0.75rem rgb(209, 171, 66));
+    transition: all 0.4s ease;
+  }
+  
+  .navbar .navbar-brand {
+    color: #F2B03B;
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(231, 228, 231);
+  } 
+  
+  .navbar .navbar-nav .nav-item .nav-link.active {
+    background-color: purple;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+  }
